@@ -1,1 +1,0 @@
-!function(o){const n=o.ca=o.ca||{};n.dictionary=Object.assign(n.dictionary||{},{"%0 of %1":"",Bold:"Negreta","Document colors":"","Font Color":"",Italic:"Cursiva","Remove color":"","Show more items":"",Underline:"Subrallat"}),n.getPluralForm=function(o){return 1!=o}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));

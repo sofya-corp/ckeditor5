@@ -22,5 +22,21 @@ ClassicEditor.builtinPlugins = [
 	Italic,
 	FontColor,
 	List,
-	Underline
+	Underline,
 ];
+
+// Editor configuration.
+ClassicEditor.defaultConfig = {
+	toolbar: {
+		items: [
+			'fontColor',
+			'bold',
+			'italic',
+			'underline',
+			'|',
+			'bulletedList'
+		]
+	},
+	// This value must be kept in sync with the language defined in webpack.config.js.
+	language: 'fr'
+};
