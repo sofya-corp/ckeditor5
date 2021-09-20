@@ -12,6 +12,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import List from '@ckeditor/ckeditor5-list/src/list';
+import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -22,6 +23,7 @@ ClassicEditor.builtinPlugins = [
 	Italic,
 	FontColor,
 	List,
+  Paragraph,
 	Underline,
 ];
 
